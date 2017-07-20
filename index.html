@@ -6,12 +6,43 @@
 	<title>Dobby Spa</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-	
+	<!-- navbar -->
+	<ul id="dropdown1" class="dropdown-content">
+		<li><a href="#!">one</a></li>
+		<li><a href="#!">two</a></li>
+		<li><a href="#!">three</a></li>
+	</ul>
+	<ul id="dropdown2" class="dropdown-content">
+		<li><a href="#!">four</a></li>
+		<li><a href="#!">five</a></li>
+		<li><a href="#!">six</a></li>
+	</ul>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="hide-on-med-and-down">
+				<li><a href="sass.html">home</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown1">blog<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown2">about us<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="collapsible.html">careers</a></li>
+				<li><a href="mobile.html">contact us</a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="sass.html">home</a></li>
+				<li><a href="sass.html">blog</a></li>
+				<li><a href="badges.html">about us</a></li>
+				<li><a href="collapsible.html">careers</a></li>
+				<li><a href="mobile.html">contact us</a></li>
+			</ul>
+		</div>
+	</nav>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<script src="assets/js/app.js"></script>
 </body>
 </html>
