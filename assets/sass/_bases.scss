@@ -33,6 +33,10 @@ nav {
 	font-size: 10px;
 }
 
+.small-two-text {
+	font-size: 12px;
+}
+
 .container {
 	width: 80%;
 }
@@ -58,6 +62,27 @@ nav {
 		padding: 2%;
 		a {
 			color: black;
+		}
+	}
+}
+
+.beauty-hair {
+	position: relative;
+	top: -80px;
+	background-color: $beauty_color;
+	padding: 5% 0;
+	img {
+		border-radius: 10px;
+		@extend .z-depth-5;
+	}
+	.col.info {
+		padding: 0 3%;
+		h5 {
+			color: rgb(229, 135, 98);
+		}
+		.fa {
+			color: $about_typ_color;
+			margin-right: 5%;
 		}
 	}
 }
