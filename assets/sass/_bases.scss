@@ -9,10 +9,55 @@ body {
 }
 
 nav {
-	background-color: black;	
+	background-color: black;
 }
 
 .nav-wrapper {
 	padding-left: 30%;
 }
 
+.m-top {
+	margin-top: 20px;
+}
+
+.m-bottom {
+	margin-bottom: 20px;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 110%;
+}
+
+.small-text {
+	font-size: 10px;
+}
+
+.container {
+	width: 80%;
+}
+
+.item {
+	position: relative;
+	top: -40px;
+}
+
+.services {
+	background-color: $services_color;
+	img {
+		width: 94%;
+		border: 9px solid $services_color_dos;
+	}
+	.row {
+		z-index: 2;
+		position: relative;
+		top: -80px;
+	}
+	.read-link {
+		background-color: $services_color_dos;
+		padding: 2%;
+		a {
+			color: black;
+		}
+	}
+}

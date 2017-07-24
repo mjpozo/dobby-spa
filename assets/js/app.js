@@ -5,5 +5,8 @@ $(document).ready(function(){
 
 	//para el dropdown
 	$(".dropdown-button").dropdown();
+
+	//para el carousel
+	$('.slider').slider();
 })
 
