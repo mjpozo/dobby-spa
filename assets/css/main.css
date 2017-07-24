@@ -6836,7 +6836,29 @@ nav {
     .beauty-hair .col.info h5 {
       color: #e58762; }
     .beauty-hair .col.info .fa {
-      color: #a95f38;
+      color: #cdab77;
       margin-right: 5%; }
+
+.about {
+  position: relative;
+  top: -80px;
+  background-color: #4a3a3a;
+  color: #cdab77;
+  padding: 5% 0; }
+  .about .float-right {
+    padding-right: 2%; }
+  .about .float-left {
+    padding-left: 2%; }
+  .about img {
+    margin: 1% 2%;
+    border-radius: 10px; }
+  .about .img-left {
+    float: left; }
+  .about .img-right {
+    float: right; }
+
+.page-footer {
+  background-color: #2f1f1f;
+  color: #cdab77; }
 
 /*# sourceMappingURL=main.css.map */

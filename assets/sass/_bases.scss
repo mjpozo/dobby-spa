@@ -86,3 +86,32 @@ nav {
 		}
 	}
 }
+
+.about {
+	position: relative;
+	top: -80px;
+	background-color: $about_color;
+	color: $about_typ_color;
+	padding: 5% 0;
+	.float-right {
+		padding-right: 2%;
+	}
+	.float-left {
+		padding-left: 2%;
+	}
+	img {
+		margin: 1% 2%;
+		border-radius: 10px;
+	}
+	.img-left {
+		float: left;
+	}
+	.img-right {
+		float: right;
+	}
+}
+
+.page-footer {
+	background-color: $footer_color;
+	color: $about_typ_color;
+}
