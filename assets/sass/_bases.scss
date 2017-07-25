@@ -44,15 +44,16 @@ nav {
 .item {
 	position: relative;
 	top: -40px;
+	width: 100%;
 }
 
-.services {
+.item-services {
 	background-color: $services_color;
 	img {
 		width: 94%;
 		border: 9px solid $services_color_dos;
 	}
-	.row {
+	.container {
 		z-index: 2;
 		position: relative;
 		top: -80px;
@@ -66,7 +67,7 @@ nav {
 	}
 }
 
-.beauty-hair {
+.item-beauty-hair {
 	position: relative;
 	top: -80px;
 	background-color: $beauty_color;
@@ -87,7 +88,7 @@ nav {
 	}
 }
 
-.about {
+.item-about {
 	position: relative;
 	top: -80px;
 	background-color: $about_color;
@@ -111,7 +112,33 @@ nav {
 	}
 }
 
-.page-footer {
+.item-footer {
+	position: relative;
+	top: -80px;
 	background-color: $footer_color;
 	color: $about_typ_color;
+	padding: 5% 0 3% 0;
+	.cont-icon {
+		width: 90px;
+		height: 90px;
+		background-color: $services_color;
+		border-radius: 50%;
+		border: 3px solid $footer_color_borde;
+	}
+	.fa-volume-control-phone {
+		font-size: 400%;
+		float: left;
+		padding-right: 3%;
+		color: rgb(181, 90, 16);
+	}
+	.disclaimer {
+		padding: 2% 0;
+	}
 }
+
+.footer {
+	height: 5vh;
+}
+
+
+
