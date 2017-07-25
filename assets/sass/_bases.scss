@@ -131,8 +131,20 @@ nav {
 		padding-right: 3%;
 		color: rgb(181, 90, 16);
 	}
+	a {
+		color: rgb(181, 90, 16);
+	}
+	a:hover {
+		color: whitesmoke;
+	}
 	.disclaimer {
 		padding: 2% 0;
+	}
+	.fa.right {
+		float: right;
+	}
+	.fa.left {
+		float: left;
 	}
 }
 

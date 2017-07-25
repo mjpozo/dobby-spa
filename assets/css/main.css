@@ -6875,8 +6875,16 @@ nav {
     float: left;
     padding-right: 3%;
     color: #b55a10; }
+  .item-footer a {
+    color: #b55a10; }
+  .item-footer a:hover {
+    color: whitesmoke; }
   .item-footer .disclaimer {
     padding: 2% 0; }
+  .item-footer .fa.right {
+    float: right; }
+  .item-footer .fa.left {
+    float: left; }
 
 .footer {
   height: 5vh; }
