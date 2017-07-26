@@ -6850,8 +6850,6 @@ nav {
     padding-right: 2%; }
   .item-about .float-left {
     padding-left: 2%; }
-  .item-about .line {
-    margin: 5% 0; }
   .item-about img {
     margin: 1% 2%;
     border-radius: 10px; }
@@ -6866,19 +6864,14 @@ nav {
   background-color: #2f1f1f;
   color: #cdab77;
   padding: 5% 0 3% 0; }
+  .item-footer h6 {
+    margin-bottom: 10px !important; }
   .item-footer .cont-icon {
+    width: 90px;
+    height: 90px;
     background-color: #e9dfb7;
     border-radius: 50%;
     border: 3px solid #ef9723; }
-    @media (min-width: 1px) and (max-width: 600px) {
-      .item-footer .cont-icon img {
-        width: 40px; } }
-    @media (min-width: 601px) and (max-width: 991px) {
-      .item-footer .cont-icon img {
-        width: 80px; } }
-    @media (min-width: 992px) and (max-width: 1400px) {
-      .item-footer .cont-icon img {
-        width: 90px; } }
   .item-footer .fa-volume-control-phone {
     font-size: 400%;
     float: left;
