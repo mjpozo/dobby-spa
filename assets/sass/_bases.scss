@@ -100,6 +100,9 @@ nav {
 	.float-left {
 		padding-left: 2%;
 	}
+	.line {
+		margin: 5% 0;
+	}
 	img {
 		margin: 1% 2%;
 		border-radius: 10px;
@@ -119,11 +122,20 @@ nav {
 	color: $about_typ_color;
 	padding: 5% 0 3% 0;
 	.cont-icon {
-		width: 90px;
-		height: 90px;
 		background-color: $services_color;
 		border-radius: 50%;
 		border: 3px solid $footer_color_borde;
+		img {
+			@media (min-width: 1px) and (max-width: 600px){
+				width: 40px;
+			}
+			@media (min-width: 601px) and (max-width: 991px){
+				width: 80px;
+			}
+			@media (min-width: 992px) and (max-width: 1400px){
+				width: 90px;
+			}
+		}
 	}
 	.fa-volume-control-phone {
 		font-size: 400%;
